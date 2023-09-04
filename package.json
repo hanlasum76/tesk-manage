@@ -1,0 +1,43 @@
+{
+    "name": "random_animals_backend",
+    "version": "1.0.0",
+    "description": "random_animals_backend",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index --exec babel-node",
+        "build": "babel node_backend_api -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MoraeGames/random_animals_backend.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MoraeGames/random_animals_backend/issues"
+    },
+    "homepage": "https://github.com/MoraeGames/random_animals_backend#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.20.7",
+        "@babel/core": "^7.20.12",
+        "@babel/node": "^7.20.7",
+        "@babel/preset-env": "^7.20.2",
+        "eslint": "^8.35.0",
+        "nodemon": "^2.0.20"
+    },
+    "dependencies": {
+        "@koa/cors": "^4.0.0",
+        "dayjs": "^1.11.7",
+        "dotenv": "^16.0.3",
+        "i": "^0.3.7",
+        "joi": "^17.7.1",
+        "knex": "^2.4.2",
+        "koa": "^2.14.1",
+        "koa-body": "^6.0.1",
+        "koa-router": "^12.0.0",
+        "lodash": "^4.17.21",
+        "sqlite3": "^5.1.6"
+    },
+    "keywords": []
+}
